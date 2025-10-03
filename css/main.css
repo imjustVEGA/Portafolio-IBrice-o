@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: auto;
+}
+
+header {
+    background: burlywood;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-bottom: solid 8px #d318;
+    padding: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+
+}
+
+
+p {
+    font-family: "Ubuntu", sans-serif;
+    color: cornflowerblue;
+}
+
+#foto-perfil {
+    width: 300px;
+    border-radius: 50px;
+    float: right
+}
