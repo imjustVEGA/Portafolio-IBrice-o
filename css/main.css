@@ -27,3 +27,87 @@ p {
     border-radius: 50px;
     float: right
 }
+
+main {
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+section {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(5, 5, 5, 0.1);
+}
+
+.experiencia {
+    float: left;
+    width: 30%;
+
+}
+
+.experiencia img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#proyectos {
+    padding: 20px 30px;
+    margin-top: 30px;
+    border-top: solid 8px rgb(96, 1, 250);
+    text-align: center;
+}
+
+.experiencia p{
+    text-align: justify0
+    ;
+    padding: 10px 20px;
+    color:black
+}
+
+.experiencia h3{
+    color: rgb(96, 1, 250);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experiencia h2{
+    color: rgb(96, 1, 250);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#habilidades {
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 8px rgb(96, 1, 250);
+     font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+progress {
+    width: 80%;
+    height: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #d3d3d3;
+}
+.tecnologias{
+    list-style: none;
+display: grid;
+margin-left: 0;
+gap: 15px;
+}
+.tecnologias li{
+    background-color: rgb(99, 20, 201);
+    color:#ffffff ;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
