@@ -156,13 +156,30 @@ font-size: 20px;
     color: rgb(250, 179, 1);
 }
 
-.campos input{
+.campos input, select{
     padding: 10px;
     border: solid 2px #d3d3d3;
     width: 50%;
     font-size: 20px;
     border-radius: 10px;
 }
+
+.campos button {
+    background-color: rgb(99, 20, 201);
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.campos .opciones{
+width: 52%;
+
+}
+
 
 footer {
     overflow: hidden;
